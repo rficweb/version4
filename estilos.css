@@ -614,6 +614,52 @@ background: #b89d2b !important;
     color: white;
 }
 
+
+/*Convenios*/
+#contenedorconven {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20PX;
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: 10px 6px 37px -13px rgba(51, 51, 51, 0.74);
+    text-align: center;
+}
+#contenedorconven h1{
+    font-size: 27px;
+    padding: 10px;
+}
+.convenios{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 10px;
+   
+}
+.icono-convenio{
+    width: 150px;
+    border-radius: 10%;
+
+}
+
+.icono-convenio img{
+    max-width:90%;
+    border-radius: 15%;
+    height: auto;
+}
+
+.icono-convenio  p{
+    margin-top: 10px; /* espacio entre la imagen y el texto */
+    font-size: 1em;
+    font-weight: bold;
+    text-align:center;
+    white-space: nowrap;
+    color: #1d71b8;
+}
+
+
 /* Servicios */
 .servicios {
     background-color: white;
